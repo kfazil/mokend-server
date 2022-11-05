@@ -1,7 +1,9 @@
 
 {
     "Network": {
-        "symbol": ["ETH", "POLYGON", "BSC"],
+        "symbol": { 
+            "string": ["ETH", "POLYGON", "BSC"] 
+        },
         "networkId": {
             "int": [5, 80001, 56]
         },
@@ -10,8 +12,6 @@
                 "https://placekitten.com/50/50"
             ]
         },
-        "isActive": {
-            "boolean": true
-        }
+        "isActive": { "boolean": {} }
     }
 }
